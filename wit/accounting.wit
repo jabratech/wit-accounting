@@ -1,0 +1,4 @@
+interface accounting-handler {    
+    use types.{get-balance-request, get-balance-response, error};
+    get-balance: func(request: get-balance-request) -> result<get-balance-response, error>;
+  }

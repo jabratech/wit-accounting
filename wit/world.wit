@@ -1,0 +1,6 @@
+package jabratech:accounting;
+
+world accounting {
+  export accounting-handler;
+  export types;
+}
